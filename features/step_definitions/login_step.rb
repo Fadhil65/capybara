@@ -13,5 +13,7 @@ end
 
 Then('I should be logged in to the application') do
   expect(URI.parse(current_url)).to have_content("/inventory.html")
+  expect(page).to have_selector(:xpath, "//img[@src='/static/media/sauce-backpack-1200x1500.0a0b85a3.jpg']", visible:true)
+  
 end
 
