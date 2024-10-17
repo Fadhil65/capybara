@@ -1,6 +1,6 @@
     Feature: Login saucedemo
 
-@pertemuan-1 @case1
+@pertemuan-1 @regression @case1 
 
     Scenario: As user, i want to login saucedemo
     Given I am on the login page
@@ -8,7 +8,7 @@
     And I click button login
     Then I should be logged in to the application
 
-@pertemuan-2 @case2
+@pertemuan-2 @regression @case2
 
     Scenario: As user, i want to login saucedemo
     Given I am on the login page
